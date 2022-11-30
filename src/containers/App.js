@@ -12,7 +12,6 @@ class App extends Component {
       users : users,
       posts : posts
     }
-    console.log(this.state)
   }
 
   // componentDidMount() {

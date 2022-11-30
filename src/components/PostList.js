@@ -3,7 +3,6 @@ import PostCard from "./PostCard";
 
 
 const PostList = ({users, posts}) => {
-    console.log(users, posts)
     const postsArray = posts.map((post, i) => {
         return (
             <PostCard

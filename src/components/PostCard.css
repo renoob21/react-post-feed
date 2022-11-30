@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+li {
+    padding: 10px;
+}
+
+.avatar {
+    max-width: none;
+}
+
+.username {
+    margin: 0;
+    color: darkgrey;
+}
+
+.dispname {
+    margin-bottom: 3px;
+}

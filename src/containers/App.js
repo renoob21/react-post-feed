@@ -17,11 +17,11 @@ class App extends Component {
   // componentDidMount() {
   //   fetch('https://jsonplaceholder.typicode.com/users')
   //     .then(req => req.json())
-  //     .then(users => this.setState({users : users}));
-    
-  //   // fetch("https://jsonplaceholder.typicode.com/posts")
-  //   //   .then(req => req.json())
-  //   //   .then(postsList => this.setState({posts : postsList}))
+  //     .then(user => this.setState({users : user}));
+  //   console.log(this.state);
+  //   fetch("https://jsonplaceholder.typicode.com/posts")
+  //     .then(req => req.json())
+  //     .then(postsList => this.setState({posts : postsList}))
     
   //   console.log(this.state);
   // }

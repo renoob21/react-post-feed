@@ -13,6 +13,8 @@ const PostCard = ({post, userId, userName}) => {
                     <div>
                         <h3 className="dispname">{userId}</h3>
                         <h6 className="username">{`@${userName.toLowerCase()}`}</h6>
+                    </div>
+                    <div>
                         <p>{post}</p>
                     </div>
                 </li>
